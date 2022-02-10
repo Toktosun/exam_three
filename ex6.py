@@ -47,11 +47,11 @@ class CsvWork:
         print(line_to_editing)
 
 
-jason = {'first_name': 'Jason', 'last_name': 'Houston', 'age': 29, 'gender': 'male', 'hobby': 'video games',
+jason = {'first_name': 'Beksultan', 'last_name': 'Iskenderov', 'age': 29, 'gender': 'male', 'hobby': 'video games',
          'job': 'QA'}
-alice = {'first_name': 'Alice', 'last_name': 'Cooper', 'age': 21, 'gender': 'female', 'hobby': 'sport',
+alice = {'first_name': 'Atay', 'last_name': 'Askarov', 'age': 21, 'gender': 'female', 'hobby': 'sport',
          'job': 'software engineer'}
-almaz = {'first_name': 'Almaz', 'last_name': 'Mokoeev', 'age': 45, 'gender': 'male', 'hobby': 'sport',
+almaz = {'first_name': 'Ikhtiyar', 'last_name': 'Rakhimov', 'age': 17, 'gender': 'male', 'hobby': 'sport',
          'job': 'software engineer'}
 
 work = CsvWork(jason)
