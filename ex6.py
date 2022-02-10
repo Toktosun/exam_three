@@ -54,11 +54,11 @@ alice = {'first_name': 'Atay', 'last_name': 'Askarov', 'age': 21, 'gender': 'fem
 almaz = {'first_name': 'Ikhtiyar', 'last_name': 'Rakhimov', 'age': 17, 'gender': 'male', 'hobby': 'sport',
          'job': 'software engineer'}
 
-work = CsvWork(jason)
-work1 = CsvWork(alice)
+work = CsvWork(beksultan)
+work1 = CsvWork(atay)
 work.add_row_csv()
 work1.add_row_csv()
 work.edit_line()
 work.sort_one()
-work2 = CsvWork(almaz)
+work2 = CsvWork(ikhtiyar)
 work2.update_line()
